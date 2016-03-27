@@ -1,0 +1,5 @@
+alias dl="cd ~/Downloads"
+alias lilly="cd ~/egnyte_shig/lilly"
+alias linode="ssh shig@50.116.57.175"
+alias code="cd ~/code"
+alias notes="cd ~/notes"

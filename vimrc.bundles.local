@@ -1,0 +1,5 @@
+" Define bundles via Github repos
+Plug 'scrooloose/nerdtree'
+Plug 'jalvesaq/Nvim-R'
+"Plug 'jelera/vim-javascript-syntax'
+Plug 'pangloss/vim-javascript'
