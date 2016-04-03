@@ -3,3 +3,6 @@ map <C-n> :NERDTreeToggle<CR>
 
 " Folding via syntax is used for this filetype.
 setlocal foldmethod=syntax
+
+" highlight current line
+setlocal cursorline
