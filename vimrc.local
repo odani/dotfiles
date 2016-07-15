@@ -6,3 +6,26 @@ setlocal foldmethod=syntax
 
 " highlight current line
 setlocal cursorline
+
+" setting colorscheme
+colo slate
+
+" minimum requirements for Nvim-R. Some of these could be getting set
+" somewhere else
+set nocompatible
+syntax on
+filetype plugin on
+filetype indent on
+
+" mapping for Nvim-R
+let maplocalleader = ","
+
+" Use Ctrl+Space to do omnicompletion. This is for Nvim-R
+if has("gui_running")
+  inoremap <C-Space> <C-x><C-o>
+else
+  inoremap <Nul> <C-x><C-o>
+endif
+
+" folding for Nvim-R
+let r_syntax_folding = 1
