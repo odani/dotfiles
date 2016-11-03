@@ -1,3 +1,5 @@
 library(data.table)
 library(stringr)
 library(lubridate)
+library(zoo)
+options(repos = c(CRAN = "http://cran.rstudio.com"))
