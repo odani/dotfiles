@@ -16,6 +16,7 @@ set nocompatible
 syntax on
 filetype plugin on
 filetype indent on
+let R_rconsole_width = 0 " makes nvim-r split horizontally
 
 " mapping for Nvim-R
 let maplocalleader = ","
