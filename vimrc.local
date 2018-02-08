@@ -8,7 +8,7 @@ setlocal foldmethod=syntax
 setlocal cursorline
 
 " setting colorscheme
-colo slate
+colo slate " or dessert
 
 " minimum requirements for Nvim-R. Some of these could be getting set
 " somewhere else
